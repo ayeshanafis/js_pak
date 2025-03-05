@@ -16,7 +16,7 @@ console.log(3+3)
 //symbol (uniqness find karny kaylia use karty hain)
 
 
-//object 
+//object (null ak object hai)
 
 console.log(typeof "ayesha");
 
