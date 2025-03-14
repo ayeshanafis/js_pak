@@ -12,9 +12,9 @@ let myDate = new Date()
 
 //console.log(myDate.toDateString())
 
-console.log(myDate.toLocaleString())
+//console.log(myDate.toLocaleString())
 
-console.log(typeof myDate)
+//console.log(typeof myDate)
 
 // date ki date type object hai js kay ander
 
@@ -26,6 +26,8 @@ console.log(typeof myDate)
 //let myCreateDate = new Date(2025, 0, 23, 5, 3)
 
 let myCreateDate = new Date("2025-01-14")
-console.log(myCreateDate.toLocaleString())
+//console.log(myCreateDate.toLocaleString())
 
+
+// time stamps in date
 
