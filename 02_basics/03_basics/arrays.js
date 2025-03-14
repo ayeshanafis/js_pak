@@ -6,7 +6,7 @@ const myHeros= ["shaktiman", "naagraj" ]
 
 const myArr2= new Array(1, 2, 3, 4, 5);
 
-console.log(myArr[0])
+//console.log(myArr[0])
 
 
 // arrays methods///
@@ -36,9 +36,17 @@ myArr.pop()
 // declare new array
 
 const newArr = myArr.join()
-console.log(myArr)
-console.log(newArr) // valuse wahi ay gi but tyoe change hoa hai string mei
+//console.log(myArr)
+//console.log(newArr) // valuse wahi ay gi but tyoe change hoa hai string mei
 
 // 2 v famous methods of arrays arae " slice" "splice"
 
 
+console.log("A", myArr)
+const myN1 = myArr.slice(1,3)
+console.log(myN1)
+console.log("b", myArr)
+
+const myN2 = myArr.splice(1,3) // splice jab use karty hai tou jo slice wala hai portion hai wo nikal hi gya hai 
+console.log("c", myArr)
+console.log(myN2)
